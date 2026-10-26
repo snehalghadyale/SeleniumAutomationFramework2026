@@ -12,7 +12,7 @@ public class LoginPage {
 	
 	private WebDriver driver;
 	
-	@FindBy(id="Email")
+	@FindBy(name="Email")
 	WebElement usernameTextbox;
 	
 	@FindBy(id="Password")
